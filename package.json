@@ -1,0 +1,61 @@
+{
+  "name": "xml-escape-tools",
+  "displayName": "XML Escape Tools",
+  "description": "Herramientas para escapar y desescapar XML en una sola línea o formato legible.",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "activationEvents": [
+    "onCommand:xmlTools.unescapeAndFormat",
+    "onCommand:xmlTools.escapeAndCompact"
+  ],
+  "main": "extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "xmlTools.unescapeAndFormat",
+        "title": "XML: Desescapar y Formatear"
+      },
+      {
+        "command": "xmlTools.escapeAndCompact",
+        "title": "XML: Escapar y Compactar"
+      }
+    ],
+  "keybindings": [
+      {
+        "command": "xmlTools.unescapeAndFormat",
+        "key": "ctrl+alt+f",
+        "mac": "ctrl+alt+f",
+        "linux": "ctrl+alt+f",
+        "win": "ctrl+alt+f",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "xmlTools.escapeAndCompact",
+        "key": "ctrl+alt+u",
+        "mac": "ctrl+alt+u",
+        "linux": "ctrl+alt+u",
+        "win": "ctrl+alt+u",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-publisher-name/xml-escape-tools"
+  },
+  "categories": ["Other"],
+  "keywords": ["xml","escape","format","compact","vscode"],
+  "homepage": "https://github.com/your-publisher-name/xml-escape-tools",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
