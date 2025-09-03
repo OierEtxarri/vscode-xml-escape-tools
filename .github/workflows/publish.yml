@@ -28,6 +28,15 @@ jobs:
         run: |
           node -e "const p=require('./package.json'); if(!p.publisher||p.publisher==='your-publisher-name'){console.error('package.json.publisher is not set or still uses placeholder `your-publisher-name`. Update it before publishing.'); process.exit(1)} else {console.log('publisher ok:', p.publisher)}"
 
+      - name: Ensure VSCE_TOKEN is available
+        run: |
+          if [ -z "$VSCE_TOKEN" ]; then
+            echo "ERROR: VSCE_TOKEN is empty. Add the secret in the repo Settings → Secrets and variables → Actions with the name 'VSCE_TOKEN'."
+            exit 1
+          else
+            echo "VSCE_TOKEN is set (masked)."
+          fi
+
       - name: Package and publish extension
         run: |
           # Publish using vsce and the secret token

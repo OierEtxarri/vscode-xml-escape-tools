@@ -1,5 +1,7 @@
 # XML Escape Tools
 
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/oierecharri.xml-escape-tools)](https://marketplace.visualstudio.com/items?itemName=oierecharri.xml-escape-tools)
+
 Extensión para Visual Studio Code que permite:
 
 - Desescapar y formatear XML (`Ctrl + Alt + F`)
@@ -10,10 +12,11 @@ Ideal para trabajar con XML embebido en texto plano.
 Muy útil a la hora de trabajar con eventos espontáneos de SOAP.
 
 Para instalar:
+
 ```bash
 npm init -y
 npm install --save-dev vsce
 npx vsce package
 
-code --install-extension xml-escape-tools-1.0.0.vsix
+code --install-extension xml-escape-tools-1.0.1.vsix
 ```
