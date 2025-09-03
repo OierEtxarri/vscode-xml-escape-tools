@@ -3,7 +3,7 @@
   "displayName": "XML Escape Tools",
   "description": "Herramientas para escapar y desescapar XML en una sola línea o formato legible.",
   "version": "1.0.0",
-  "publisher": "your-publisher-name",
+  "publisher": "oierecharri",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -53,7 +53,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "OierEtxarri",
+  "author": "oierecharri",
   "license": "ISC",
   "devDependencies": {
     "vsce": "^2.15.0"
