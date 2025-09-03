@@ -44,16 +44,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-publisher-name/xml-escape-tools"
+    "url": "https://github.com/OierEtxarri/vscode-xml-escape-tools"
   },
   "categories": ["Other"],
   "keywords": ["xml","escape","format","compact","vscode"],
-  "homepage": "https://github.com/your-publisher-name/xml-escape-tools",
+  "homepage": "https://github.com/OierEtxarri/vscode-xml-escape-tools",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "OierEtxarri",
   "license": "ISC",
   "devDependencies": {
     "vsce": "^2.15.0"
