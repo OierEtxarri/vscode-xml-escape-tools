@@ -2,7 +2,7 @@
   "name": "xml-escape-tools",
   "displayName": "XML Escape Tools",
   "description": "Herramientas para escapar y desescapar XML en una sola línea o formato legible.",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "publisher": "oierecharri",
   "engines": {
     "vscode": "^1.70.0"
