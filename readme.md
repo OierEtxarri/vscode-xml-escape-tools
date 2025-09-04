@@ -10,13 +10,3 @@ Extensión para Visual Studio Code que permite:
 Ideal para trabajar con XML embebido en texto plano.
 
 Muy útil a la hora de trabajar con eventos espontáneos de SOAP.
-
-Para instalar:
-
-```bash
-npm init -y
-npm install --save-dev vsce
-npx vsce package
-
-code --install-extension xml-escape-tools-1.0.1.vsix
-```
